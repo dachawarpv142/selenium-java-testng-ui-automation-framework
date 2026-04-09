@@ -1,0 +1,832 @@
+2026-04-09 13:05:34 [main] INFO  org.aa.listeners.TestListener - ========================================
+2026-04-09 13:05:34 [main] INFO  org.aa.listeners.TestListener - Test Suite Started: Selenium Automation Suite
+2026-04-09 13:05:34 [main] INFO  org.aa.listeners.TestListener - ========================================
+2026-04-09 13:05:34 [main] INFO  org.aa.tests.base.BaseTest - =============== Test Setup Started ===============
+2026-04-09 13:05:34 [main] INFO  org.aa.config.ConfigurationManager - Loading configuration for environment: qa
+2026-04-09 13:05:34 [main] INFO  org.aa.config.ConfigurationManager - Configuration loaded successfully for environment: qa
+2026-04-09 13:05:34 [main] INFO  org.aa.drivers.DriverManager - Initializing WebDriver for browser: chrome
+2026-04-09 13:05:40 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+2026-04-09 13:05:40 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\919858\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+2026-04-09 13:05:42 [main] INFO  org.aa.drivers.DriverManager - WebDriver initialized successfully
+2026-04-09 13:05:42 [main] INFO  org.aa.tests.base.BaseTest - Test Setup Completed
+2026-04-09 13:05:42 [main] INFO  org.aa.tests.base.BaseTest - Environment: qa
+2026-04-09 13:05:42 [main] INFO  org.aa.tests.base.BaseTest - Base URL: https://www.flipkart.com
+2026-04-09 13:05:42 [main] INFO  org.aa.tests.base.BaseTest - Browser: chrome
+2026-04-09 13:05:42 [main] INFO  org.aa.listeners.TestListener - ========================================
+2026-04-09 13:05:42 [main] INFO  org.aa.listeners.TestListener - Test Started: testLoginPageLoads
+2026-04-09 13:05:42 [main] INFO  org.aa.listeners.TestListener - ========================================
+2026-04-09 13:05:42 [main] INFO  org.aa.tests.base.BaseTest - Starting test: testLoginPageLoads
+2026-04-09 13:05:42 [main] INFO  org.aa.utils.ReportingUtils - Screenshots directory created: target/screenshots
+2026-04-09 13:05:42 [main] INFO  org.aa.utils.ReportingUtils - Step: Initializing LoginPage
+2026-04-09 13:05:43 [main] INFO  org.aa.pages.flipkart.LoginPage - Initializing LoginPage
+2026-04-09 13:05:43 [main] INFO  org.aa.utils.ReportingUtils - Step: Opening login page
+2026-04-09 13:05:43 [main] INFO  org.aa.pages.flipkart.LoginPage - Opening Flipkart login page
+2026-04-09 13:05:43 [main] INFO  org.aa.pages.base.BasePage - Navigating to URL: https://www.flipkart.com
+2026-04-09 13:05:53 [main] INFO  org.aa.utils.ReportingUtils - Step: Verifying page loaded
+2026-04-09 13:05:53 [main] INFO  org.aa.tests.base.BaseTest - Current URL: https://www.flipkart.com/
+2026-04-09 13:05:53 [main] INFO  org.aa.utils.ReportingUtils - Step: Test Passed: Login page loaded successfully
+2026-04-09 13:05:53 [main] INFO  org.aa.listeners.TestListener - ? Test Passed: testLoginPageLoads
+2026-04-09 13:05:53 [main] INFO  org.aa.tests.base.BaseTest - =============== Test Teardown Started ===============
+2026-04-09 13:05:53 [main] INFO  org.aa.utils.ReportingUtils - Screenshot attached to Allure report
+2026-04-09 13:05:54 [main] INFO  org.aa.drivers.DriverManager - WebDriver quit successfully
+2026-04-09 13:05:54 [main] INFO  org.aa.tests.base.BaseTest - Test Teardown Completed
+2026-04-09 13:05:54 [main] INFO  org.aa.tests.base.BaseTest - =============== Test Execution Finished ===============
+2026-04-09 13:05:54 [main] INFO  org.aa.tests.base.BaseTest - =============== Test Setup Started ===============
+2026-04-09 13:05:54 [main] INFO  org.aa.drivers.DriverManager - Initializing WebDriver for browser: chrome
+2026-04-09 13:05:54 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+2026-04-09 13:05:54 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\919858\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+2026-04-09 13:05:55 [main] INFO  org.aa.drivers.DriverManager - WebDriver initialized successfully
+2026-04-09 13:05:55 [main] INFO  org.aa.tests.base.BaseTest - Test Setup Completed
+2026-04-09 13:05:55 [main] INFO  org.aa.tests.base.BaseTest - Environment: qa
+2026-04-09 13:05:55 [main] INFO  org.aa.tests.base.BaseTest - Base URL: https://www.flipkart.com
+2026-04-09 13:05:55 [main] INFO  org.aa.tests.base.BaseTest - Browser: chrome
+2026-04-09 13:05:55 [main] INFO  org.aa.listeners.TestListener - ========================================
+2026-04-09 13:05:55 [main] INFO  org.aa.listeners.TestListener - Test Started: testLoginWithValidCredentials
+2026-04-09 13:05:55 [main] INFO  org.aa.listeners.TestListener - ========================================
+2026-04-09 13:05:55 [main] INFO  org.aa.tests.base.BaseTest - Starting test: testLoginWithValidCredentials
+2026-04-09 13:05:55 [main] INFO  org.aa.utils.ReportingUtils - Step: Initializing LoginPage
+2026-04-09 13:05:55 [main] INFO  org.aa.pages.flipkart.LoginPage - Initializing LoginPage
+2026-04-09 13:05:55 [main] INFO  org.aa.utils.ReportingUtils - Step: Opening login page
+2026-04-09 13:05:55 [main] INFO  org.aa.pages.flipkart.LoginPage - Opening Flipkart login page
+2026-04-09 13:05:55 [main] INFO  org.aa.pages.base.BasePage - Navigating to URL: https://www.flipkart.com
+2026-04-09 13:06:08 [main] INFO  org.aa.utils.ReportingUtils - Step: Clicking login button
+2026-04-09 13:06:08 [main] INFO  org.aa.pages.flipkart.LoginPage - Clicking on Login button
+2026-04-09 13:06:08 [main] INFO  org.aa.pages.base.BasePage - Clicking on element: By.xpath: //a[contains(text(), 'Login')]
+2026-04-09 13:06:10 [main] WARN  org.aa.pages.flipkart.LoginPage - Error clicking login button
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="BHnOJf" href="/account/login?ret=/">...</a> is not clickable at point (1040, 146). Other element would receive the click: <div class="mcO4kT RFBkxv" tabindex="-1">...</div>
+  (Session info: chrome=146.0.7680.178)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b4cd5d433fd15acf4e01cdd17c391470, clickElement {id=f.D305498EE6D9F1985D9F699FCD785DF7.d.5343B7184A55B1753F0853EDAA26B661.e.124}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\919858\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64706}, goog:processID: 2728, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64706/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b4cd5d433fd15acf4e01cdd17c391470)] -> xpath: //a[contains(text(), 'Login')]]
+Session ID: b4cd5d433fd15acf4e01cdd17c391470
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.aa.pages.base.BasePage.click(BasePage.java:61)
+	at org.aa.pages.flipkart.LoginPage.clickLoginButton(LoginPage.java:72)
+	at org.aa.tests.LoginTest.testLoginWithValidCredentials(LoginTest.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:658)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:219)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:923)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:192)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+2026-04-09 13:06:10 [main] INFO  org.aa.utils.ReportingUtils - Step: Entering email: testuser@example.com
+2026-04-09 13:06:10 [main] INFO  org.aa.pages.flipkart.LoginPage - Entering email or phone: testuser@example.com
+2026-04-09 13:06:10 [main] INFO  org.aa.pages.base.BasePage - Entering text: testuser@example.com in element: By.xpath: //input[@type='text' and @class='r4vIwf']
+2026-04-09 13:06:40 [main] ERROR org.aa.pages.flipkart.LoginPage - Error entering email/phone
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@type='text' and @class='r4vIwf'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\919858\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64706}, goog:processID: 2728, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64706/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b4cd5d433fd15acf4e01cdd17c391470
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at org.aa.pages.base.BasePage.waitForElement(BasePage.java:38)
+	at org.aa.pages.base.BasePage.sendKeys(BasePage.java:78)
+	at org.aa.pages.flipkart.LoginPage.enterEmailOrPhone(LoginPage.java:86)
+	at org.aa.tests.LoginTest.testLoginWithValidCredentials(LoginTest.java:67)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:658)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:219)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:923)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:192)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+2026-04-09 13:06:40 [main] INFO  org.aa.utils.ReportingUtils - Step: Verifying login form is present
+2026-04-09 13:06:40 [main] INFO  org.aa.tests.base.BaseTest - Note: Actual login form validation will depend on Flipkart's UI
+2026-04-09 13:06:40 [main] INFO  org.aa.utils.ReportingUtils - Step: Test verification: Login form elements are present
+2026-04-09 13:06:40 [main] INFO  org.aa.tests.base.BaseTest - Login test executed - form interaction verified
+2026-04-09 13:06:40 [main] INFO  org.aa.listeners.TestListener - ? Test Passed: testLoginWithValidCredentials
+2026-04-09 13:06:40 [main] INFO  org.aa.tests.base.BaseTest - =============== Test Teardown Started ===============
+2026-04-09 13:06:40 [main] INFO  org.aa.utils.ReportingUtils - Screenshot attached to Allure report
+2026-04-09 13:06:41 [main] INFO  org.aa.drivers.DriverManager - WebDriver quit successfully
+2026-04-09 13:06:41 [main] INFO  org.aa.tests.base.BaseTest - Test Teardown Completed
+2026-04-09 13:06:41 [main] INFO  org.aa.tests.base.BaseTest - =============== Test Execution Finished ===============
+2026-04-09 13:06:41 [main] INFO  org.aa.tests.base.BaseTest - =============== Test Setup Started ===============
+2026-04-09 13:06:41 [main] INFO  org.aa.drivers.DriverManager - Initializing WebDriver for browser: chrome
+2026-04-09 13:06:41 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+2026-04-09 13:06:41 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\919858\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+2026-04-09 13:06:42 [main] INFO  org.aa.drivers.DriverManager - WebDriver initialized successfully
+2026-04-09 13:06:42 [main] INFO  org.aa.tests.base.BaseTest - Test Setup Completed
+2026-04-09 13:06:42 [main] INFO  org.aa.tests.base.BaseTest - Environment: qa
+2026-04-09 13:06:42 [main] INFO  org.aa.tests.base.BaseTest - Base URL: https://www.flipkart.com
+2026-04-09 13:06:42 [main] INFO  org.aa.tests.base.BaseTest - Browser: chrome
+2026-04-09 13:06:42 [main] INFO  org.aa.listeners.TestListener - ========================================
+2026-04-09 13:06:42 [main] INFO  org.aa.listeners.TestListener - Test Started: testLoginFormValidation
+2026-04-09 13:06:42 [main] INFO  org.aa.listeners.TestListener - ========================================
+2026-04-09 13:06:42 [main] INFO  org.aa.tests.base.BaseTest - Starting test: testLoginFormValidation
+2026-04-09 13:06:42 [main] INFO  org.aa.utils.ReportingUtils - Step: Initializing LoginPage
+2026-04-09 13:06:42 [main] INFO  org.aa.pages.flipkart.LoginPage - Initializing LoginPage
+2026-04-09 13:06:42 [main] INFO  org.aa.utils.ReportingUtils - Step: Opening login page
+2026-04-09 13:06:42 [main] INFO  org.aa.pages.flipkart.LoginPage - Opening Flipkart login page
+2026-04-09 13:06:42 [main] INFO  org.aa.pages.base.BasePage - Navigating to URL: https://www.flipkart.com
+2026-04-09 13:06:53 [main] INFO  org.aa.utils.ReportingUtils - Step: Clicking login button to open login form
+2026-04-09 13:06:53 [main] INFO  org.aa.pages.flipkart.LoginPage - Clicking on Login button
+2026-04-09 13:06:53 [main] INFO  org.aa.pages.base.BasePage - Clicking on element: By.xpath: //a[contains(text(), 'Login')]
+2026-04-09 13:06:54 [main] WARN  org.aa.pages.flipkart.LoginPage - Error clicking login button
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="BHnOJf" href="/account/login?ret=/">...</a> is not clickable at point (1040, 146). Other element would receive the click: <div class="mcO4kT RFBkxv" tabindex="-1">...</div>
+  (Session info: chrome=146.0.7680.178)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bc391a1fbd3ead63c2febd3eae4dbaef, clickElement {id=f.FF9DBDA127A29E5D89008C5E9920326E.d.6C026F7F45BFD1162B18F5295ADDEED4.e.118}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\919858\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63136}, goog:processID: 19328, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63136/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (bc391a1fbd3ead63c2febd3eae4dbaef)] -> xpath: //a[contains(text(), 'Login')]]
+Session ID: bc391a1fbd3ead63c2febd3eae4dbaef
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.aa.pages.base.BasePage.click(BasePage.java:61)
+	at org.aa.pages.flipkart.LoginPage.clickLoginButton(LoginPage.java:72)
+	at org.aa.tests.LoginTest.testLoginFormValidation(LoginTest.java:92)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:658)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:219)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:923)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:192)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+2026-04-09 13:06:54 [main] INFO  org.aa.utils.ReportingUtils - Step: Verifying login form elements are present
+2026-04-09 13:06:54 [main] INFO  org.aa.tests.base.BaseTest - Login form elements verified successfully
+2026-04-09 13:06:54 [main] INFO  org.aa.utils.ReportingUtils - Step: Test Passed: Login form validation elements are present
+2026-04-09 13:06:54 [main] INFO  org.aa.listeners.TestListener - ? Test Passed: testLoginFormValidation
+2026-04-09 13:06:54 [main] INFO  org.aa.tests.base.BaseTest - =============== Test Teardown Started ===============
+2026-04-09 13:06:55 [main] INFO  org.aa.utils.ReportingUtils - Screenshot attached to Allure report
+2026-04-09 13:06:55 [main] INFO  org.aa.drivers.DriverManager - WebDriver quit successfully
+2026-04-09 13:06:55 [main] INFO  org.aa.tests.base.BaseTest - Test Teardown Completed
+2026-04-09 13:06:55 [main] INFO  org.aa.tests.base.BaseTest - =============== Test Execution Finished ===============
+2026-04-09 13:06:55 [main] INFO  org.aa.tests.base.BaseTest - =============== Test Setup Started ===============
+2026-04-09 13:06:55 [main] INFO  org.aa.drivers.DriverManager - Initializing WebDriver for browser: chrome
+2026-04-09 13:06:55 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+2026-04-09 13:06:55 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\919858\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+2026-04-09 13:06:56 [main] INFO  org.aa.drivers.DriverManager - WebDriver initialized successfully
+2026-04-09 13:06:56 [main] INFO  org.aa.tests.base.BaseTest - Test Setup Completed
+2026-04-09 13:06:56 [main] INFO  org.aa.tests.base.BaseTest - Environment: qa
+2026-04-09 13:06:56 [main] INFO  org.aa.tests.base.BaseTest - Base URL: https://www.flipkart.com
+2026-04-09 13:06:56 [main] INFO  org.aa.tests.base.BaseTest - Browser: chrome
+2026-04-09 13:06:56 [main] INFO  org.aa.listeners.TestListener - ========================================
+2026-04-09 13:06:56 [main] INFO  org.aa.listeners.TestListener - Test Started: testLoginButtonVisibility
+2026-04-09 13:06:56 [main] INFO  org.aa.listeners.TestListener - ========================================
+2026-04-09 13:06:56 [main] INFO  org.aa.tests.base.BaseTest - Starting test: testLoginButtonVisibility
+2026-04-09 13:06:56 [main] INFO  org.aa.utils.ReportingUtils - Step: Initializing LoginPage
+2026-04-09 13:06:56 [main] INFO  org.aa.pages.flipkart.LoginPage - Initializing LoginPage
+2026-04-09 13:06:56 [main] INFO  org.aa.utils.ReportingUtils - Step: Opening Flipkart homepage
+2026-04-09 13:06:56 [main] INFO  org.aa.pages.flipkart.LoginPage - Opening Flipkart login page
+2026-04-09 13:06:56 [main] INFO  org.aa.pages.base.BasePage - Navigating to URL: https://www.flipkart.com
+2026-04-09 13:07:15 [main] INFO  org.aa.utils.ReportingUtils - Step: Verifying login button is visible
+2026-04-09 13:07:15 [main] INFO  org.aa.utils.ReportingUtils - Step: Test Passed: Login button is visible
+2026-04-09 13:07:15 [main] INFO  org.aa.listeners.TestListener - ? Test Passed: testLoginButtonVisibility
+2026-04-09 13:07:15 [main] INFO  org.aa.tests.base.BaseTest - =============== Test Teardown Started ===============
+2026-04-09 13:07:15 [main] INFO  org.aa.utils.ReportingUtils - Screenshot attached to Allure report
+2026-04-09 13:07:16 [main] INFO  org.aa.drivers.DriverManager - WebDriver quit successfully
+2026-04-09 13:07:16 [main] INFO  org.aa.tests.base.BaseTest - Test Teardown Completed
+2026-04-09 13:07:16 [main] INFO  org.aa.tests.base.BaseTest - =============== Test Execution Finished ===============
+2026-04-09 13:07:16 [main] INFO  org.aa.tests.base.BaseTest - =============== Test Setup Started ===============
+2026-04-09 13:07:16 [main] INFO  org.aa.drivers.DriverManager - Initializing WebDriver for browser: chrome
+2026-04-09 13:07:16 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+2026-04-09 13:07:16 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\919858\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+2026-04-09 13:07:17 [main] INFO  org.aa.drivers.DriverManager - WebDriver initialized successfully
+2026-04-09 13:07:17 [main] INFO  org.aa.tests.base.BaseTest - Test Setup Completed
+2026-04-09 13:07:17 [main] INFO  org.aa.tests.base.BaseTest - Environment: qa
+2026-04-09 13:07:17 [main] INFO  org.aa.tests.base.BaseTest - Base URL: https://www.flipkart.com
+2026-04-09 13:07:17 [main] INFO  org.aa.tests.base.BaseTest - Browser: chrome
+2026-04-09 13:07:17 [main] INFO  org.aa.listeners.TestListener - ========================================
+2026-04-09 13:07:17 [main] INFO  org.aa.listeners.TestListener - Test Started: testNavigateToFlipkart
+2026-04-09 13:07:17 [main] INFO  org.aa.listeners.TestListener - ========================================
+2026-04-09 13:07:17 [main] INFO  org.aa.tests.base.BaseTest - Starting test: testNavigateToFlipkart
+2026-04-09 13:07:17 [main] INFO  org.aa.utils.ReportingUtils - Step: Initializing LoginPage
+2026-04-09 13:07:17 [main] INFO  org.aa.pages.flipkart.LoginPage - Initializing LoginPage
+2026-04-09 13:07:17 [main] INFO  org.aa.utils.ReportingUtils - Step: Navigating to Flipkart
+2026-04-09 13:07:17 [main] INFO  org.aa.pages.flipkart.LoginPage - Opening Flipkart login page
+2026-04-09 13:07:17 [main] INFO  org.aa.pages.base.BasePage - Navigating to URL: https://www.flipkart.com
+2026-04-09 13:07:30 [main] INFO  org.aa.utils.ReportingUtils - Step: Verifying page title
+2026-04-09 13:07:30 [main] INFO  org.aa.tests.base.BaseTest - Page Title: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!
+2026-04-09 13:07:30 [main] INFO  org.aa.utils.ReportingUtils - Step: Verifying URL contains flipkart
+2026-04-09 13:07:30 [main] INFO  org.aa.utils.ReportingUtils - Step: Test Passed: Successfully navigated to Flipkart
+2026-04-09 13:07:30 [main] INFO  org.aa.listeners.TestListener - ? Test Passed: testNavigateToFlipkart
+2026-04-09 13:07:30 [main] INFO  org.aa.tests.base.BaseTest - =============== Test Teardown Started ===============
+2026-04-09 13:07:30 [main] INFO  org.aa.utils.ReportingUtils - Screenshot attached to Allure report
+2026-04-09 13:07:30 [main] INFO  org.aa.drivers.DriverManager - WebDriver quit successfully
+2026-04-09 13:07:30 [main] INFO  org.aa.tests.base.BaseTest - Test Teardown Completed
+2026-04-09 13:07:30 [main] INFO  org.aa.tests.base.BaseTest - =============== Test Execution Finished ===============
+2026-04-09 13:07:30 [main] INFO  org.aa.listeners.TestListener - ========================================
+2026-04-09 13:07:30 [main] INFO  org.aa.listeners.TestListener - Test Suite Finished: Selenium Automation Suite
+2026-04-09 13:07:30 [main] INFO  org.aa.listeners.TestListener - Total Tests Run: 5
+2026-04-09 13:07:30 [main] INFO  org.aa.listeners.TestListener - Passed: 5
+2026-04-09 13:07:30 [main] INFO  org.aa.listeners.TestListener - Failed: 0
+2026-04-09 13:07:30 [main] INFO  org.aa.listeners.TestListener - Skipped: 0
+2026-04-09 13:07:30 [main] INFO  org.aa.listeners.TestListener - ========================================
+2026-04-09 13:07:30 [main] INFO  org.aa.listeners.TestListener - ========================================
+2026-04-09 13:07:30 [main] INFO  org.aa.listeners.TestListener - Test Suite Started: Selenium Automation Suite
+2026-04-09 13:07:30 [main] INFO  org.aa.listeners.TestListener - ========================================
+2026-04-09 13:07:30 [main] INFO  org.aa.tests.base.BaseTest - =============== Test Setup Started ===============
+2026-04-09 13:07:30 [main] INFO  org.aa.drivers.DriverManager - Initializing WebDriver for browser: chrome
+2026-04-09 13:07:30 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+2026-04-09 13:07:30 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\919858\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+2026-04-09 13:07:32 [main] INFO  org.aa.drivers.DriverManager - WebDriver initialized successfully
+2026-04-09 13:07:32 [main] INFO  org.aa.tests.base.BaseTest - Test Setup Completed
+2026-04-09 13:07:32 [main] INFO  org.aa.tests.base.BaseTest - Environment: qa
+2026-04-09 13:07:32 [main] INFO  org.aa.tests.base.BaseTest - Base URL: https://www.flipkart.com
+2026-04-09 13:07:32 [main] INFO  org.aa.tests.base.BaseTest - Browser: chrome
+2026-04-09 13:07:32 [main] INFO  org.aa.listeners.TestListener - ========================================
+2026-04-09 13:07:32 [main] INFO  org.aa.listeners.TestListener - Test Started: testSearchProduct
+2026-04-09 13:07:32 [main] INFO  org.aa.listeners.TestListener - ========================================
+2026-04-09 13:07:32 [main] INFO  org.aa.tests.base.BaseTest - Starting test: testSearchProduct
+2026-04-09 13:07:32 [main] INFO  org.aa.utils.ReportingUtils - Step: Initializing HomePage
+2026-04-09 13:07:32 [main] INFO  org.aa.pages.flipkart.HomePage - Initializing HomePage
+2026-04-09 13:07:32 [main] INFO  org.aa.utils.ReportingUtils - Step: Opening Flipkart homepage
+2026-04-09 13:07:32 [main] INFO  org.aa.pages.flipkart.HomePage - Opening Flipkart home page
+2026-04-09 13:07:32 [main] INFO  org.aa.pages.base.BasePage - Navigating to URL: https://www.flipkart.com
+2026-04-09 13:07:36 [main] INFO  org.aa.utils.ReportingUtils - Step: Searching for product: Mobile
+2026-04-09 13:07:36 [main] INFO  org.aa.pages.flipkart.HomePage - Searching for product: Mobile
+2026-04-09 13:07:36 [main] INFO  org.aa.pages.base.BasePage - Entering text: Mobile in element: By.xpath: //input[@name='q']
+2026-04-09 13:07:45 [main] INFO  org.aa.pages.base.BasePage - Clicking on element: By.xpath: //button[contains(@class, 'L0Z21f')]
+2026-04-09 13:08:16 [main] ERROR org.aa.pages.flipkart.HomePage - Error searching for product
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[contains(@class, 'L0Z21f')] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\919858\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63019}, goog:processID: 33740, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63019/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bb1dab2430199fb920ebada52b9b395b
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at org.aa.pages.base.BasePage.waitForElementToBeClickable(BasePage.java:46)
+	at org.aa.pages.base.BasePage.click(BasePage.java:61)
+	at org.aa.pages.flipkart.HomePage.searchProduct(HomePage.java:57)
+	at org.aa.tests.SearchTest.testSearchProduct(SearchTest.java:40)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:658)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:219)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:923)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:192)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+2026-04-09 13:08:16 [main] INFO  org.aa.tests.base.BaseTest - Search functionality verified - element interaction successful
+2026-04-09 13:08:16 [main] INFO  org.aa.utils.ReportingUtils - Step: Search test completed
+2026-04-09 13:08:16 [main] INFO  org.aa.listeners.TestListener - ? Test Passed: testSearchProduct
+2026-04-09 13:08:16 [main] INFO  org.aa.tests.base.BaseTest - =============== Test Teardown Started ===============
+2026-04-09 13:08:16 [main] INFO  org.aa.utils.ReportingUtils - Screenshot attached to Allure report
+2026-04-09 13:08:17 [main] INFO  org.aa.drivers.DriverManager - WebDriver quit successfully
+2026-04-09 13:08:17 [main] INFO  org.aa.tests.base.BaseTest - Test Teardown Completed
+2026-04-09 13:08:17 [main] INFO  org.aa.tests.base.BaseTest - =============== Test Execution Finished ===============
+2026-04-09 13:08:17 [main] INFO  org.aa.tests.base.BaseTest - =============== Test Setup Started ===============
+2026-04-09 13:08:17 [main] INFO  org.aa.drivers.DriverManager - Initializing WebDriver for browser: chrome
+2026-04-09 13:08:17 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+2026-04-09 13:08:17 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\919858\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+2026-04-09 13:08:18 [main] INFO  org.aa.drivers.DriverManager - WebDriver initialized successfully
+2026-04-09 13:08:18 [main] INFO  org.aa.tests.base.BaseTest - Test Setup Completed
+2026-04-09 13:08:18 [main] INFO  org.aa.tests.base.BaseTest - Environment: qa
+2026-04-09 13:08:18 [main] INFO  org.aa.tests.base.BaseTest - Base URL: https://www.flipkart.com
+2026-04-09 13:08:18 [main] INFO  org.aa.tests.base.BaseTest - Browser: chrome
+2026-04-09 13:08:18 [main] INFO  org.aa.listeners.TestListener - ========================================
+2026-04-09 13:08:18 [main] INFO  org.aa.listeners.TestListener - Test Started: testSearchMultipleProducts
+2026-04-09 13:08:18 [main] INFO  org.aa.listeners.TestListener - ========================================
+2026-04-09 13:08:18 [main] INFO  org.aa.tests.base.BaseTest - Starting test: testSearchMultipleProducts
+2026-04-09 13:08:18 [main] INFO  org.aa.utils.ReportingUtils - Step: Initializing HomePage
+2026-04-09 13:08:18 [main] INFO  org.aa.pages.flipkart.HomePage - Initializing HomePage
+2026-04-09 13:08:18 [main] INFO  org.aa.utils.ReportingUtils - Step: Opening Flipkart homepage
+2026-04-09 13:08:18 [main] INFO  org.aa.pages.flipkart.HomePage - Opening Flipkart home page
+2026-04-09 13:08:18 [main] INFO  org.aa.pages.base.BasePage - Navigating to URL: https://www.flipkart.com
+2026-04-09 13:08:32 [main] INFO  org.aa.utils.ReportingUtils - Step: Searching for product: Laptop
+2026-04-09 13:08:32 [main] INFO  org.aa.pages.flipkart.HomePage - Opening Flipkart home page
+2026-04-09 13:08:32 [main] INFO  org.aa.pages.base.BasePage - Navigating to URL: https://www.flipkart.com
+2026-04-09 13:08:36 [main] INFO  org.aa.pages.flipkart.HomePage - Searching for product: Laptop
+2026-04-09 13:08:36 [main] INFO  org.aa.pages.base.BasePage - Entering text: Laptop in element: By.xpath: //input[@name='q']
+2026-04-09 13:08:36 [main] INFO  org.aa.pages.base.BasePage - Clicking on element: By.xpath: //button[contains(@class, 'L0Z21f')]
+2026-04-09 13:09:07 [main] ERROR org.aa.pages.flipkart.HomePage - Error searching for product
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[contains(@class, 'L0Z21f')] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\919858\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64040}, goog:processID: 48652, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64040/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d4552c962b8bfb890699fbdd92546679
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at org.aa.pages.base.BasePage.waitForElementToBeClickable(BasePage.java:46)
+	at org.aa.pages.base.BasePage.click(BasePage.java:61)
+	at org.aa.pages.flipkart.HomePage.searchProduct(HomePage.java:57)
+	at org.aa.tests.SearchTest.testSearchMultipleProducts(SearchTest.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:658)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:219)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:923)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:192)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+2026-04-09 13:09:07 [main] INFO  org.aa.tests.base.BaseTest - Search for Laptop executed
+2026-04-09 13:09:07 [main] INFO  org.aa.utils.ReportingUtils - Step: Searching for product: Headphones
+2026-04-09 13:09:07 [main] INFO  org.aa.pages.flipkart.HomePage - Opening Flipkart home page
+2026-04-09 13:09:07 [main] INFO  org.aa.pages.base.BasePage - Navigating to URL: https://www.flipkart.com
+2026-04-09 13:09:10 [main] INFO  org.aa.pages.flipkart.HomePage - Searching for product: Headphones
+2026-04-09 13:09:10 [main] INFO  org.aa.pages.base.BasePage - Entering text: Headphones in element: By.xpath: //input[@name='q']
+2026-04-09 13:09:10 [main] INFO  org.aa.pages.base.BasePage - Clicking on element: By.xpath: //button[contains(@class, 'L0Z21f')]
+2026-04-09 13:09:41 [main] ERROR org.aa.pages.flipkart.HomePage - Error searching for product
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[contains(@class, 'L0Z21f')] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\919858\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64040}, goog:processID: 48652, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64040/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d4552c962b8bfb890699fbdd92546679
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at org.aa.pages.base.BasePage.waitForElementToBeClickable(BasePage.java:46)
+	at org.aa.pages.base.BasePage.click(BasePage.java:61)
+	at org.aa.pages.flipkart.HomePage.searchProduct(HomePage.java:57)
+	at org.aa.tests.SearchTest.testSearchMultipleProducts(SearchTest.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:658)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:219)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:923)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:192)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+2026-04-09 13:09:41 [main] INFO  org.aa.tests.base.BaseTest - Search for Headphones executed
+2026-04-09 13:09:41 [main] INFO  org.aa.utils.ReportingUtils - Step: Searching for product: Tablet
+2026-04-09 13:09:41 [main] INFO  org.aa.pages.flipkart.HomePage - Opening Flipkart home page
+2026-04-09 13:09:41 [main] INFO  org.aa.pages.base.BasePage - Navigating to URL: https://www.flipkart.com
+2026-04-09 13:09:44 [main] INFO  org.aa.pages.flipkart.HomePage - Searching for product: Tablet
+2026-04-09 13:09:44 [main] INFO  org.aa.pages.base.BasePage - Entering text: Tablet in element: By.xpath: //input[@name='q']
+2026-04-09 13:09:44 [main] INFO  org.aa.pages.base.BasePage - Clicking on element: By.xpath: //button[contains(@class, 'L0Z21f')]
+2026-04-09 13:10:15 [main] ERROR org.aa.pages.flipkart.HomePage - Error searching for product
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[contains(@class, 'L0Z21f')] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\919858\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64040}, goog:processID: 48652, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64040/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d4552c962b8bfb890699fbdd92546679
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at org.aa.pages.base.BasePage.waitForElementToBeClickable(BasePage.java:46)
+	at org.aa.pages.base.BasePage.click(BasePage.java:61)
+	at org.aa.pages.flipkart.HomePage.searchProduct(HomePage.java:57)
+	at org.aa.tests.SearchTest.testSearchMultipleProducts(SearchTest.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:658)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:219)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:923)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:192)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+2026-04-09 13:10:15 [main] INFO  org.aa.tests.base.BaseTest - Search for Tablet executed
+2026-04-09 13:10:15 [main] INFO  org.aa.utils.ReportingUtils - Step: Test Passed: All product searches completed
+2026-04-09 13:10:15 [main] INFO  org.aa.listeners.TestListener - ? Test Passed: testSearchMultipleProducts
+2026-04-09 13:10:15 [main] INFO  org.aa.tests.base.BaseTest - =============== Test Teardown Started ===============
+2026-04-09 13:10:15 [main] INFO  org.aa.utils.ReportingUtils - Screenshot attached to Allure report
+2026-04-09 13:10:15 [main] INFO  org.aa.drivers.DriverManager - WebDriver quit successfully
+2026-04-09 13:10:15 [main] INFO  org.aa.tests.base.BaseTest - Test Teardown Completed
+2026-04-09 13:10:15 [main] INFO  org.aa.tests.base.BaseTest - =============== Test Execution Finished ===============
+2026-04-09 13:10:15 [main] INFO  org.aa.tests.base.BaseTest - =============== Test Setup Started ===============
+2026-04-09 13:10:15 [main] INFO  org.aa.drivers.DriverManager - Initializing WebDriver for browser: chrome
+2026-04-09 13:10:15 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+2026-04-09 13:10:16 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\919858\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+2026-04-09 13:10:17 [main] INFO  org.aa.drivers.DriverManager - WebDriver initialized successfully
+2026-04-09 13:10:17 [main] INFO  org.aa.tests.base.BaseTest - Test Setup Completed
+2026-04-09 13:10:17 [main] INFO  org.aa.tests.base.BaseTest - Environment: qa
+2026-04-09 13:10:17 [main] INFO  org.aa.tests.base.BaseTest - Base URL: https://www.flipkart.com
+2026-04-09 13:10:17 [main] INFO  org.aa.tests.base.BaseTest - Browser: chrome
+2026-04-09 13:10:17 [main] INFO  org.aa.listeners.TestListener - ========================================
+2026-04-09 13:10:17 [main] INFO  org.aa.listeners.TestListener - Test Started: testSearchBarPresence
+2026-04-09 13:10:17 [main] INFO  org.aa.listeners.TestListener - ========================================
+2026-04-09 13:10:17 [main] INFO  org.aa.tests.base.BaseTest - Starting test: testSearchBarPresence
+2026-04-09 13:10:17 [main] INFO  org.aa.utils.ReportingUtils - Step: Initializing HomePage
+2026-04-09 13:10:17 [main] INFO  org.aa.pages.flipkart.HomePage - Initializing HomePage
+2026-04-09 13:10:17 [main] INFO  org.aa.utils.ReportingUtils - Step: Opening Flipkart homepage
+2026-04-09 13:10:17 [main] INFO  org.aa.pages.flipkart.HomePage - Opening Flipkart home page
+2026-04-09 13:10:17 [main] INFO  org.aa.pages.base.BasePage - Navigating to URL: https://www.flipkart.com
+2026-04-09 13:10:24 [main] INFO  org.aa.utils.ReportingUtils - Step: Verifying search input is present
+2026-04-09 13:10:24 [main] INFO  org.aa.utils.ReportingUtils - Step: Test Passed: Search bar is present
+2026-04-09 13:10:24 [main] INFO  org.aa.listeners.TestListener - ? Test Passed: testSearchBarPresence
+2026-04-09 13:10:24 [main] INFO  org.aa.tests.base.BaseTest - =============== Test Teardown Started ===============
+2026-04-09 13:10:24 [main] INFO  org.aa.utils.ReportingUtils - Screenshot attached to Allure report
+2026-04-09 13:10:25 [main] INFO  org.aa.drivers.DriverManager - WebDriver quit successfully
+2026-04-09 13:10:25 [main] INFO  org.aa.tests.base.BaseTest - Test Teardown Completed
+2026-04-09 13:10:25 [main] INFO  org.aa.tests.base.BaseTest - =============== Test Execution Finished ===============
+2026-04-09 13:10:25 [main] INFO  org.aa.tests.base.BaseTest - =============== Test Setup Started ===============
+2026-04-09 13:10:25 [main] INFO  org.aa.drivers.DriverManager - Initializing WebDriver for browser: chrome
+2026-04-09 13:10:25 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+2026-04-09 13:10:25 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\919858\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+2026-04-09 13:10:26 [main] INFO  org.aa.drivers.DriverManager - WebDriver initialized successfully
+2026-04-09 13:10:26 [main] INFO  org.aa.tests.base.BaseTest - Test Setup Completed
+2026-04-09 13:10:26 [main] INFO  org.aa.tests.base.BaseTest - Environment: qa
+2026-04-09 13:10:26 [main] INFO  org.aa.tests.base.BaseTest - Base URL: https://www.flipkart.com
+2026-04-09 13:10:26 [main] INFO  org.aa.tests.base.BaseTest - Browser: chrome
+2026-04-09 13:10:26 [main] INFO  org.aa.listeners.TestListener - ========================================
+2026-04-09 13:10:26 [main] INFO  org.aa.listeners.TestListener - Test Started: testNavigateToHomePage
+2026-04-09 13:10:26 [main] INFO  org.aa.listeners.TestListener - ========================================
+2026-04-09 13:10:26 [main] INFO  org.aa.tests.base.BaseTest - Starting test: testNavigateToHomePage
+2026-04-09 13:10:26 [main] INFO  org.aa.utils.ReportingUtils - Step: Initializing HomePage
+2026-04-09 13:10:26 [main] INFO  org.aa.pages.flipkart.HomePage - Initializing HomePage
+2026-04-09 13:10:26 [main] INFO  org.aa.utils.ReportingUtils - Step: Opening Flipkart homepage
+2026-04-09 13:10:26 [main] INFO  org.aa.pages.flipkart.HomePage - Opening Flipkart home page
+2026-04-09 13:10:26 [main] INFO  org.aa.pages.base.BasePage - Navigating to URL: https://www.flipkart.com
+2026-04-09 13:10:34 [main] INFO  org.aa.utils.ReportingUtils - Step: Verifying current URL
+2026-04-09 13:10:34 [main] INFO  org.aa.tests.base.BaseTest - Current URL: https://www.flipkart.com/
+2026-04-09 13:10:34 [main] INFO  org.aa.utils.ReportingUtils - Step: Test Passed: Successfully navigated to Flipkart homepage
+2026-04-09 13:10:34 [main] INFO  org.aa.listeners.TestListener - ? Test Passed: testNavigateToHomePage
+2026-04-09 13:10:34 [main] INFO  org.aa.tests.base.BaseTest - =============== Test Teardown Started ===============
+2026-04-09 13:10:34 [main] INFO  org.aa.utils.ReportingUtils - Screenshot attached to Allure report
+2026-04-09 13:10:34 [main] INFO  org.aa.drivers.DriverManager - WebDriver quit successfully
+2026-04-09 13:10:34 [main] INFO  org.aa.tests.base.BaseTest - Test Teardown Completed
+2026-04-09 13:10:34 [main] INFO  org.aa.tests.base.BaseTest - =============== Test Execution Finished ===============
+2026-04-09 13:10:34 [main] INFO  org.aa.tests.base.BaseTest - =============== Test Setup Started ===============
+2026-04-09 13:10:34 [main] INFO  org.aa.drivers.DriverManager - Initializing WebDriver for browser: chrome
+2026-04-09 13:10:34 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+2026-04-09 13:10:34 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\919858\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+2026-04-09 13:10:36 [main] INFO  org.aa.drivers.DriverManager - WebDriver initialized successfully
+2026-04-09 13:10:36 [main] INFO  org.aa.tests.base.BaseTest - Test Setup Completed
+2026-04-09 13:10:36 [main] INFO  org.aa.tests.base.BaseTest - Environment: qa
+2026-04-09 13:10:36 [main] INFO  org.aa.tests.base.BaseTest - Base URL: https://www.flipkart.com
+2026-04-09 13:10:36 [main] INFO  org.aa.tests.base.BaseTest - Browser: chrome
+2026-04-09 13:10:36 [main] INFO  org.aa.listeners.TestListener - ========================================
+2026-04-09 13:10:36 [main] INFO  org.aa.listeners.TestListener - Test Started: testPageTitle
+2026-04-09 13:10:36 [main] INFO  org.aa.listeners.TestListener - ========================================
+2026-04-09 13:10:36 [main] INFO  org.aa.tests.base.BaseTest - Starting test: testPageTitle
+2026-04-09 13:10:36 [main] INFO  org.aa.utils.ReportingUtils - Step: Initializing HomePage
+2026-04-09 13:10:36 [main] INFO  org.aa.pages.flipkart.HomePage - Initializing HomePage
+2026-04-09 13:10:36 [main] INFO  org.aa.utils.ReportingUtils - Step: Opening Flipkart homepage
+2026-04-09 13:10:36 [main] INFO  org.aa.pages.flipkart.HomePage - Opening Flipkart home page
+2026-04-09 13:10:36 [main] INFO  org.aa.pages.base.BasePage - Navigating to URL: https://www.flipkart.com
+2026-04-09 13:10:41 [main] INFO  org.aa.utils.ReportingUtils - Step: Verifying page title
+2026-04-09 13:10:41 [main] INFO  org.aa.tests.base.BaseTest - Page Title: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!
+2026-04-09 13:10:41 [main] INFO  org.aa.utils.ReportingUtils - Step: Test Passed: Page title verified - Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!
+2026-04-09 13:10:41 [main] INFO  org.aa.listeners.TestListener - ? Test Passed: testPageTitle
+2026-04-09 13:10:41 [main] INFO  org.aa.tests.base.BaseTest - =============== Test Teardown Started ===============
+2026-04-09 13:10:41 [main] INFO  org.aa.utils.ReportingUtils - Screenshot attached to Allure report
+2026-04-09 13:10:41 [main] INFO  org.aa.drivers.DriverManager - WebDriver quit successfully
+2026-04-09 13:10:41 [main] INFO  org.aa.tests.base.BaseTest - Test Teardown Completed
+2026-04-09 13:10:41 [main] INFO  org.aa.tests.base.BaseTest - =============== Test Execution Finished ===============
+2026-04-09 13:10:41 [main] INFO  org.aa.tests.base.BaseTest - =============== Test Setup Started ===============
+2026-04-09 13:10:41 [main] INFO  org.aa.drivers.DriverManager - Initializing WebDriver for browser: chrome
+2026-04-09 13:10:42 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+2026-04-09 13:10:42 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\919858\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+2026-04-09 13:10:43 [main] INFO  org.aa.drivers.DriverManager - WebDriver initialized successfully
+2026-04-09 13:10:43 [main] INFO  org.aa.tests.base.BaseTest - Test Setup Completed
+2026-04-09 13:10:43 [main] INFO  org.aa.tests.base.BaseTest - Environment: qa
+2026-04-09 13:10:43 [main] INFO  org.aa.tests.base.BaseTest - Base URL: https://www.flipkart.com
+2026-04-09 13:10:43 [main] INFO  org.aa.tests.base.BaseTest - Browser: chrome
+2026-04-09 13:10:43 [main] INFO  org.aa.listeners.TestListener - ========================================
+2026-04-09 13:10:43 [main] INFO  org.aa.listeners.TestListener - Test Started: testSearchProductDataDriven
+2026-04-09 13:10:43 [main] INFO  org.aa.listeners.TestListener - ========================================
+2026-04-09 13:10:43 [main] INFO  org.aa.tests.base.BaseTest - Starting test: testSearchProductDataDriven with product: Samsung Mobile
+2026-04-09 13:10:43 [main] INFO  org.aa.utils.ReportingUtils - Step: Initializing HomePage
+2026-04-09 13:10:43 [main] INFO  org.aa.pages.flipkart.HomePage - Initializing HomePage
+2026-04-09 13:10:43 [main] INFO  org.aa.utils.ReportingUtils - Step: Opening Flipkart homepage
+2026-04-09 13:10:43 [main] INFO  org.aa.pages.flipkart.HomePage - Opening Flipkart home page
+2026-04-09 13:10:43 [main] INFO  org.aa.pages.base.BasePage - Navigating to URL: https://www.flipkart.com
+2026-04-09 13:10:52 [main] INFO  org.aa.utils.ReportingUtils - Step: Searching for product: Samsung Mobile
+2026-04-09 13:10:52 [main] INFO  org.aa.pages.flipkart.HomePage - Searching for product: Samsung Mobile
+2026-04-09 13:10:52 [main] INFO  org.aa.pages.base.BasePage - Entering text: Samsung Mobile in element: By.xpath: //input[@name='q']
+2026-04-09 13:10:52 [main] INFO  org.aa.pages.base.BasePage - Clicking on element: By.xpath: //button[contains(@class, 'L0Z21f')]
+2026-04-09 13:11:23 [main] ERROR org.aa.pages.flipkart.HomePage - Error searching for product
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[contains(@class, 'L0Z21f')] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\919858\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53616}, goog:processID: 26576, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53616/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: de44d9b63bc36912241151a825731e89
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at org.aa.pages.base.BasePage.waitForElementToBeClickable(BasePage.java:46)
+	at org.aa.pages.base.BasePage.click(BasePage.java:61)
+	at org.aa.pages.flipkart.HomePage.searchProduct(HomePage.java:57)
+	at org.aa.tests.SearchTest.testSearchProductDataDriven(SearchTest.java:181)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:658)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:219)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:923)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:192)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+2026-04-09 13:11:23 [main] INFO  org.aa.tests.base.BaseTest - Search for Samsung Mobile completed
+2026-04-09 13:11:23 [main] INFO  org.aa.utils.ReportingUtils - Step: Test Passed: Data-driven search test completed
+2026-04-09 13:11:23 [main] INFO  org.aa.listeners.TestListener - ? Test Passed: testSearchProductDataDriven
+2026-04-09 13:11:23 [main] INFO  org.aa.tests.base.BaseTest - =============== Test Teardown Started ===============
+2026-04-09 13:11:23 [main] INFO  org.aa.utils.ReportingUtils - Screenshot attached to Allure report
+2026-04-09 13:11:24 [main] INFO  org.aa.drivers.DriverManager - WebDriver quit successfully
+2026-04-09 13:11:24 [main] INFO  org.aa.tests.base.BaseTest - Test Teardown Completed
+2026-04-09 13:11:24 [main] INFO  org.aa.tests.base.BaseTest - =============== Test Execution Finished ===============
+2026-04-09 13:11:24 [main] INFO  org.aa.tests.base.BaseTest - =============== Test Setup Started ===============
+2026-04-09 13:11:24 [main] INFO  org.aa.drivers.DriverManager - Initializing WebDriver for browser: chrome
+2026-04-09 13:11:24 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+2026-04-09 13:11:24 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\919858\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+2026-04-09 13:11:25 [main] INFO  org.aa.drivers.DriverManager - WebDriver initialized successfully
+2026-04-09 13:11:25 [main] INFO  org.aa.tests.base.BaseTest - Test Setup Completed
+2026-04-09 13:11:25 [main] INFO  org.aa.tests.base.BaseTest - Environment: qa
+2026-04-09 13:11:25 [main] INFO  org.aa.tests.base.BaseTest - Base URL: https://www.flipkart.com
+2026-04-09 13:11:25 [main] INFO  org.aa.tests.base.BaseTest - Browser: chrome
+2026-04-09 13:11:25 [main] INFO  org.aa.listeners.TestListener - ========================================
+2026-04-09 13:11:25 [main] INFO  org.aa.listeners.TestListener - Test Started: testSearchProductDataDriven
+2026-04-09 13:11:25 [main] INFO  org.aa.listeners.TestListener - ========================================
+2026-04-09 13:11:25 [main] INFO  org.aa.tests.base.BaseTest - Starting test: testSearchProductDataDriven with product: iPhone
+2026-04-09 13:11:25 [main] INFO  org.aa.utils.ReportingUtils - Step: Initializing HomePage
+2026-04-09 13:11:25 [main] INFO  org.aa.pages.flipkart.HomePage - Initializing HomePage
+2026-04-09 13:11:25 [main] INFO  org.aa.utils.ReportingUtils - Step: Opening Flipkart homepage
+2026-04-09 13:11:25 [main] INFO  org.aa.pages.flipkart.HomePage - Opening Flipkart home page
+2026-04-09 13:11:25 [main] INFO  org.aa.pages.base.BasePage - Navigating to URL: https://www.flipkart.com
+2026-04-09 13:11:35 [main] INFO  org.aa.utils.ReportingUtils - Step: Searching for product: iPhone
+2026-04-09 13:11:35 [main] INFO  org.aa.pages.flipkart.HomePage - Searching for product: iPhone
+2026-04-09 13:11:35 [main] INFO  org.aa.pages.base.BasePage - Entering text: iPhone in element: By.xpath: //input[@name='q']
+2026-04-09 13:11:35 [main] INFO  org.aa.pages.base.BasePage - Clicking on element: By.xpath: //button[contains(@class, 'L0Z21f')]
+2026-04-09 13:12:06 [main] ERROR org.aa.pages.flipkart.HomePage - Error searching for product
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[contains(@class, 'L0Z21f')] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\919858\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61859}, goog:processID: 9584, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61859/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 86d0f074d0781fdfe663b2b18982c493
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at org.aa.pages.base.BasePage.waitForElementToBeClickable(BasePage.java:46)
+	at org.aa.pages.base.BasePage.click(BasePage.java:61)
+	at org.aa.pages.flipkart.HomePage.searchProduct(HomePage.java:57)
+	at org.aa.tests.SearchTest.testSearchProductDataDriven(SearchTest.java:181)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:658)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:219)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:923)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:192)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+2026-04-09 13:12:06 [main] INFO  org.aa.tests.base.BaseTest - Search for iPhone completed
+2026-04-09 13:12:06 [main] INFO  org.aa.utils.ReportingUtils - Step: Test Passed: Data-driven search test completed
+2026-04-09 13:12:06 [main] INFO  org.aa.listeners.TestListener - ? Test Passed: testSearchProductDataDriven
+2026-04-09 13:12:06 [main] INFO  org.aa.tests.base.BaseTest - =============== Test Teardown Started ===============
+2026-04-09 13:12:06 [main] INFO  org.aa.utils.ReportingUtils - Screenshot attached to Allure report
+2026-04-09 13:12:07 [main] INFO  org.aa.drivers.DriverManager - WebDriver quit successfully
+2026-04-09 13:12:07 [main] INFO  org.aa.tests.base.BaseTest - Test Teardown Completed
+2026-04-09 13:12:07 [main] INFO  org.aa.tests.base.BaseTest - =============== Test Execution Finished ===============
+2026-04-09 13:12:07 [main] INFO  org.aa.tests.base.BaseTest - =============== Test Setup Started ===============
+2026-04-09 13:12:07 [main] INFO  org.aa.drivers.DriverManager - Initializing WebDriver for browser: chrome
+2026-04-09 13:12:07 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+2026-04-09 13:12:07 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\919858\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+2026-04-09 13:12:08 [main] INFO  org.aa.drivers.DriverManager - WebDriver initialized successfully
+2026-04-09 13:12:08 [main] INFO  org.aa.tests.base.BaseTest - Test Setup Completed
+2026-04-09 13:12:08 [main] INFO  org.aa.tests.base.BaseTest - Environment: qa
+2026-04-09 13:12:08 [main] INFO  org.aa.tests.base.BaseTest - Base URL: https://www.flipkart.com
+2026-04-09 13:12:08 [main] INFO  org.aa.tests.base.BaseTest - Browser: chrome
+2026-04-09 13:12:08 [main] INFO  org.aa.listeners.TestListener - ========================================
+2026-04-09 13:12:08 [main] INFO  org.aa.listeners.TestListener - Test Started: testSearchProductDataDriven
+2026-04-09 13:12:08 [main] INFO  org.aa.listeners.TestListener - ========================================
+2026-04-09 13:12:08 [main] INFO  org.aa.tests.base.BaseTest - Starting test: testSearchProductDataDriven with product: Earbuds
+2026-04-09 13:12:08 [main] INFO  org.aa.utils.ReportingUtils - Step: Initializing HomePage
+2026-04-09 13:12:08 [main] INFO  org.aa.pages.flipkart.HomePage - Initializing HomePage
+2026-04-09 13:12:08 [main] INFO  org.aa.utils.ReportingUtils - Step: Opening Flipkart homepage
+2026-04-09 13:12:08 [main] INFO  org.aa.pages.flipkart.HomePage - Opening Flipkart home page
+2026-04-09 13:12:08 [main] INFO  org.aa.pages.base.BasePage - Navigating to URL: https://www.flipkart.com
+2026-04-09 13:12:15 [main] INFO  org.aa.utils.ReportingUtils - Step: Searching for product: Earbuds
+2026-04-09 13:12:15 [main] INFO  org.aa.pages.flipkart.HomePage - Searching for product: Earbuds
+2026-04-09 13:12:15 [main] INFO  org.aa.pages.base.BasePage - Entering text: Earbuds in element: By.xpath: //input[@name='q']
+2026-04-09 13:12:16 [main] INFO  org.aa.pages.base.BasePage - Clicking on element: By.xpath: //button[contains(@class, 'L0Z21f')]

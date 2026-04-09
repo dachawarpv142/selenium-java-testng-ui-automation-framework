@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Selenium Automation Suite" parallel="false" thread-count="1" verbose="2">
+
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+        <listener class-name="org.aa.listeners.TestListener"/>
+    </listeners>
+
+    <test name="Flipkart Login Tests">
+        <classes>
+            <class name="org.aa.tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Flipkart Search Tests">
+        <classes>
+            <class name="org.aa.tests.SearchTest"/>
+        </classes>
+    </test>
+
+</suite>
+
